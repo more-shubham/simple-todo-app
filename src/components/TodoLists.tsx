@@ -10,7 +10,7 @@ function TodoLists() {
     return () => {
       loadTodo();
     };
-  }, []);
+  });
   return (
     <>
       {todoList.map(({ id, message }, key) => (
